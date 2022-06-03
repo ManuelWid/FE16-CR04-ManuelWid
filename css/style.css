@@ -13,7 +13,7 @@
 }
 
 #nav-bell:hover i {
-    animation: ringBell .3s linear infinite alternate;
+    animation: ringBell .2s linear infinite alternate;
 }
 
 @keyframes ringBell {
