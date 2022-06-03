@@ -6,7 +6,9 @@ clearLS.addEventListener("click", () => {
 });
 
 const form = document.getElementById("form");
-form.addEventListener("click", () => event.preventDefault())
+form.addEventListener("click", () => event.preventDefault());
+
+const targetBell = document.getElementById("nav-bell");
 
 let objStorage;
 
@@ -108,4 +110,12 @@ function buildHTML(arr){
     `;
     });
     addPriority();
+    
+    targetBell.innerHTML = "";
+    targetBell.innerHTML += `
+        <i class="fa-solid fa-bell fa-lg text-white"></i>
+        <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">
+            ${arr.length}
+        </span>
+    `;
 }

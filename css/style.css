@@ -12,6 +12,15 @@
     color: black;
 }
 
+#nav-bell:hover i {
+    animation: ringBell .3s linear infinite alternate;
+}
+
+@keyframes ringBell {
+    0% {transform: rotate(20deg);}
+    100% {transform: rotate(-20deg);}
+}
+
 .hero {
     height: 50vh;
     background-image: url("../images/agenda.jpg");
