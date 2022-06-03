@@ -1,0 +1,67 @@
+{
+    "tasks": [
+        {
+            "taskName": "shopping",
+            "image": "images/pen.jpg",
+            "description": "Shop for weekly groceries at Billa and Hofer.",
+            "importance": 2,
+            "deadline": "10.06.2022"
+        },
+        {
+            "taskName": "cleaning",
+            "image": "images/pen.jpg",
+            "description": "Clean the apartment.",
+            "importance": 1,
+            "deadline": "10.06.2022"
+        },
+        {
+            "taskName": "learn JS",
+            "image": "images/pen.jpg",
+            "description": "Read and lern the next pre-work for JS.",
+            "importance": 3,
+            "deadline": "10.06.2022"
+        },
+        {
+            "taskName": "learn coding",
+            "image": "images/pen.jpg",
+            "description": "Look for new things and see how they're done.",
+            "importance": 0,
+            "deadline": "10.06.2022"
+        },
+        {
+            "taskName": "meet friends",
+            "image": "images/pen.jpg",
+            "description": "Take a break, you've done enough.",
+            "importance": 0,
+            "deadline": "10.06.2022"
+        },
+        {
+            "taskName": "be creative",
+            "image": "images/pen.jpg",
+            "description": "Learn to be more creative as you suck in it, proof are the next entries.",
+            "importance": 5,
+            "deadate": "10.06.2022"
+        },
+        {
+            "taskName": "be creative",
+            "image": "images/pen.jpg",
+            "description": "Learn to be more creative as you suck in it, proof are the next entries.",
+            "importance": 0,
+            "deadline": "10.06.2022"
+        },
+        {
+            "taskName": "be creative",
+            "image": "images/pen.jpg",
+            "description": "Learn to be more creative as you suck in it, proof are the next entries.",
+            "importance": 4,
+            "deadline": "10.06.2022"
+        },
+        {
+            "taskName": "be creative",
+            "image": "images/pen.jpg",
+            "description": "Learn to be more creative as you suck in it, proof are the next entries.",
+            "importance": 0,
+            "deadline": "10.06.2022"
+        }
+    ]
+}
