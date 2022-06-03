@@ -5,6 +5,9 @@ clearLS.addEventListener("click", () => {
     location.reload();
 });
 
+const form = document.getElementById("form");
+form.addEventListener("click", () => event.preventDefault())
+
 let objStorage;
 
 // ====================
