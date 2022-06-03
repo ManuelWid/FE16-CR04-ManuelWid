@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --bgColor: rgb(33,37,41);
+}
+
+.hero {
+    height: 50vh;
+    background-image: url("../images/agenda.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.hero-textbox {
+    background-color: rgba(0, 0, 0, .5);
+}
+
+.footer {
+    background-color: var(--bgColor);
+}
+
+.footer-social {
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid white;
+    border-radius: 10%;
+    background-color: rgba(0, 0, 0, 0);
+    color: white;
+    text-decoration: none;
+    transition: color .5s ease;
+}
+
+.footer-social:hover {
+    color: grey;
+}
